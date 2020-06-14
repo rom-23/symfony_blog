@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4546a4e-81ad-41a5-93b3-54bee7aac21d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a4546a4e-81ad-41a5-93b3-54bee7aac21d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/devblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devblog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
     <execution>
       <executable path="/usr/local/bin/composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,20 +136,37 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TipWRfrEeepPApocC3b3TgxsQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -155,11 +181,80 @@
       <option name="presentableId" value="Default" />
       <updated>1573952801221</updated>
       <workItem from="1573952802475" duration="31295000" />
-      <workItem from="1574099146051" duration="238000" />
+      <workItem from="1574099146051" duration="828000" />
+      <workItem from="1574115731503" duration="43000" />
+      <workItem from="1574209413277" duration="460000" />
+      <workItem from="1574210068951" duration="28000" />
+      <workItem from="1574268632860" duration="248000" />
+      <workItem from="1574269198163" duration="493000" />
+      <workItem from="1574269766260" duration="14000" />
+      <workItem from="1574270731185" duration="3000" />
+      <workItem from="1574270764753" duration="106000" />
+      <workItem from="1574279258519" duration="3000" />
+      <workItem from="1574279843268" duration="47000" />
+      <workItem from="1574983481956" duration="12000" />
+      <workItem from="1575059544215" duration="606000" />
+      <workItem from="1576085410379" duration="5272000" />
+      <workItem from="1576705956498" duration="61000" />
+      <workItem from="1576706032208" duration="71000" />
+      <workItem from="1576967920340" duration="65000" />
+      <workItem from="1577476971901" duration="68000" />
+      <workItem from="1578253913236" duration="343000" />
+      <workItem from="1580154274036" duration="53000" />
+      <workItem from="1580162231595" duration="1882000" />
+      <workItem from="1580164478503" duration="637000" />
+      <workItem from="1580240259667" duration="2219000" />
+      <workItem from="1580340182965" duration="92000" />
+      <workItem from="1580635759475" duration="1335000" />
+      <workItem from="1581447440814" duration="36000" />
+      <workItem from="1581631505997" duration="713000" />
+      <workItem from="1582403733658" duration="355000" />
+      <workItem from="1582404130092" duration="8000" />
+      <workItem from="1582407654274" duration="29000" />
+      <workItem from="1582409841391" duration="1537000" />
+      <workItem from="1582497926066" duration="33000" />
+      <workItem from="1584711355913" duration="9000" />
+      <workItem from="1584986474659" duration="13000" />
+      <workItem from="1585058990007" duration="19000" />
+      <workItem from="1585059331560" duration="17000" />
+      <workItem from="1585498123149" duration="2000" />
+      <workItem from="1586016709808" duration="56000" />
+      <workItem from="1586019287676" duration="780000" />
+      <workItem from="1586985939431" duration="391000" />
+      <workItem from="1588441085448" duration="32000" />
+      <workItem from="1588518680912" duration="16000" />
+      <workItem from="1591653685638" duration="1185000" />
+      <workItem from="1591985551797" duration="41758000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592051593163">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1592051593163" />
+    <state x="784" y="318" width="424" height="500" key="FileChooserDialogImpl" timestamp="1591986679793">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2663" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.339.1920.1080@1920.0.1920.1080" timestamp="1584986485218" />
+    <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1586986329266" />
+    <state x="784" y="318" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591986679793" />
+    <state x="784" y="299" width="424" height="500" key="FileChooserDialogImpl/67.27.1853.1052@67.27.1853.1052" timestamp="1585059346343" />
   </component>
 </project>

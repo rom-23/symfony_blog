@@ -1,21 +1,328 @@
 {% extends 'base.html.twig' %}
 {% block title %}
-
 {% endblock %}
 {% block body %}
-<div class="container">
-    <div class="row">
-        <h1>{{ title }}</h1>
-    </div>
-    <div class="row">
-        <div class="col-6">
-{{ age }}
+    <section class="banner" id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="left-banner-content">
+                        <div class="text-content">
+                            <h6>Bienvenue dans notre galerie en ligne,</h6>
+                            <div class="container line-dec"></div>
+                            <h1>Design et photographies</h1>
+                            <p>Studio 44 inc.</p>
+                        </div>
+                        <div class="container text-center">
+                            <div class="white-border-button">
+                                <a href="#" class="scroll-link">Entrer dans la galerie</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-banner-content">
+                        <div class="logo">
+                            <a href="#" title="home">
+                                <img src="{{ asset('img/logo.png') }}" alt="logo">
+                            </a>
+                        </div>
+                        <h2>Avalonis</h2>
+                        <span>Creative photography template</span>
+                        <div class="line-dec"></div>
+                        <p>Conception et réalisation de catalogues produits, de campagnes de publicité, packshot photo
+                            de produits en 360°, packshot photo, reportage photo, réalisation de films…</p>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-6">
+    </section>
+    <section class="best-offer" id="best-offer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="best-offer-left-content">
+                        <div class="icon"><img src="{{ asset('img/best-offer-icon.png') }}" alt=""></div>
+                        <h4>Création de contenu visuel</h4>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="best-offer-right-content">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h2>Un Studio photo destiné à la photo et à la création.</h2>
+                                <p>Le besoin de création d’une image sur mesure, pour un catalogue
+                                    produits ou pour une campagne publicitaire, s’avère essentiel.
+                                    La première étape est la création de la maquette du support et la
+                                    définition des produits qui seront mis en avant. Vient ensuite la
+                                    conception des visuels, la définition du stylisme, la déco,
+                                    l’éclairage (En studio tout est possible ! lumière du soir,
+                                    lumière d’été, lumière douce, lumière crue…) et le planning qui va
+                                    préciser la date de réception des produits à photographier, date de
+                                    création des décors, date du shooting… </p>
+                                <ul>
+                                    <li>+ Une communication réfléchie et impactante permet de changer les habitudes pour
+                                        faire avancer les choses.
+                                    </li>
+                                    <li>+ Conscient des enjeux écologiques que notre société doit intégrer, Studio 44
+                                        tiens à y participer grâce à son travail.
+                                    </li>
+                                </ul>
+                                <div class="pink-button">
+                                    <a href="#" class="scroll-link">Découvrir plus</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img class="img-responsive cuba" src="{{ asset('img/cuba.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper fourth-service">
+                            <div class="front">
+                                <div class="icon">
+                                    <img src="{{ asset('img/chat-icon.png') }}" alt="">
+                                </div>
+                                <h4>Nos engagements</h4>
+                            </div>
+                            <div class="back">
+                                <p>LE RESPECT DE L’ENVIRONNEMENT ET LA BIENVEILLANCE SONT AU CENTRE DE NOTRE ACTIVITÉ.
+                                    C’EST POURQUOI NOUS PRENONS PARTICULIÈREMENT PLAISIR À COLLABORER AVEC DES
+                                    ENTREPRISES
+                                    OU INDÉPENDANTS QUI PARTAGENT CES VALEURS. STUDIO 44 se RÉJOUIT DE DÉCOUVRIR DE
+                                    NOUVEAUX
+                                    PROJETS ÉCOLOGIQUES ET SOLIDAIRES. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper first-service">
+                            <div class="front">
+                                <div class="icon">
+                                    <img src="{{ asset('img/heart-icon.png') }}" alt="">
+                                </div>
+                                <h4>Services web et mobile</h4>
+                            </div>
+                            <div class="back">
+                                <p> Reflexion sur les besoins de votre site web, app mobile ou web app. Imaginer une
+                                    expérience utilisateur adéquat aux besoins et attentes de vos utilisateurs.
+                                    Création de l’interface de votre site web, app mobile ou web app, à travers des
+                                    maquettes ou prototypes réalistes et fidèles au rendu final.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper second-service">
+                            <div class="front">
+                                <div class="icon">
+                                    <img src="{{ asset('img/home-icon.png') }}" alt="">
+                                </div>
+                                <h4>Devenez membre Premuim</h4>
+                            </div>
+                            <div class="back">
+                                <p>Rejoignez nous comme membre du Studio 44, vous aurez accés à tous nos guides de
+                                    communication visuelle, ainsi qu'au blog de Studio 44, ce qui vous permet de poster
+                                    et commenter des articles sur la photographie et ses différentes techniques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper third-service">
+                            <div class="front">
+                                <div class="icon">
+                                    <img src="{{ asset('img/revision-icon.png') }}" alt="">
+                                </div>
+                                <h4>Nos guides photographies</h4>
+                            </div>
+                            <div class="back">
+                                <p>Vous êtes à la recherche d'une identité visuelle,
+                                    vous souhaitez savoir comment ça fonctionne ?
+                                    Nos guides Studio 44 Design sont là pour vous éclairer et vous
+                                    expliquer la méthodologie que nous appliquons pour la conception de logotype, site
+                                    internet, affiche, etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-contact">
+        <p>N’hésitez pas à nous contacter selon vos besoins, nous vous conseillons dans la communication
+            visuelle (site internet, logotype, affiche, packaging, etc.) sur mesure.</p>
+        <div class="pink-button">
+            <a href="#" class="btn btn-info">Contactez nous</a>
+        </div>
+    </section>
+    <section class="testimonial" id="testimonial-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-image"></div>
+                </div>
+                <div class="col-md-8">
+                    <div id="owl-testimonial" class="owl-carousel owl-theme">
+                        <div class="item col-md-12">
+                            <img src="{{ asset('img/author_01.png') }}" alt="">
+                            <span>Web Designer</span>
+                            <h4>Steven Walkeri</h4>
+                            <br>
+                            <p><em>"</em>Un travail de grande qualité, une écoute et une attention individualisée
+                                remarquables, les photos numeriques pour les sites web sont du superbes qualité
+                                !<em>"</em>
+                            </p>
+                        </div>
+                        <div class="item col-md-12">
+                            <img src="{{ asset('img/author_02.png') }}" alt="">
+                            <span>Chef d'entreprise</span>
+                            <h4>Johnny Smithy</h4>
+                            <br>
+                            <p><em>"</em>Excellent, franchement excellent travail. Et en plus de cela, deux superbes
+                                personnalités, un bon moment de plaisir !!! Le service est excellente! Ils sont très
+                                professionnels et réactifs.<em>"</em>
+                            </p>
+                        </div>
+                        <div class="item col-md-12">
+                            <img src="{{ asset('img/author_03.png') }}" alt="">
+                            <span>Directeur de management</span>
+                            <h4>William Smokerie</h4>
+                            <br>
+                            <p><em>"</em>Le book et les tableaux que nous avons choisi sont sublimes! Non seulement la
+                                photo est superbe mais en plus les supports qu’ils ont sélectionnés sont d’une très
+                                belles facture.<em>"</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best-offer" id="best-offer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="best-offer-right-content">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h2>Découvrez nos différents thèmes de galerie photos </h2>
+                                <p>Studio 44 dispose d'un grand choix de thèmes pour votre design, choisissez votre
+                                    thème et explorez sa galerie de photos et d'illustrations,
+                                </p>
+                                <ul>
+                                    <li>+ Photos de voyage, paysages du bout du monde.</li>
+                                    <li>+ Portraits et gros plans, grands formats en noir et blanc.</li>
+                                    <li>+ Illustrations et web design pour inspiration.</li>
+                                    <li>+ Photos retouchées et personnalisées sur mesure.</li>
+                                </ul>
+                                <div class="pink-button">
+                                    <a href="#" class="scroll-link">Entrez dans la galerie</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img class="img-responsive hk" src="{{ asset('img/hk.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="best-offer-left-content2">
+                        <div class="icon"><img src="{{ asset('img/best-offer-icon.png') }}" alt=""></div>
+                        <h4>Accéder aux articles</h4>
+                        <p>Laissez-vous guider parmi nos articles, bien d'autres sont à venir ! N'hésitez pas à
+                            nous poser des questions, à commenter nos contenus et à vous inscrire à notre
+                            newsletter.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-right-content">
+                        <div class="icon"><img src="{{ asset('img/map-marker-icon.png') }}" alt=""></div>
+                        <h4>Trouvez nous sur la carte</h4>
+                    </div>
+                </div>
+                <div class="col-md-8">
 
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name"
+                                           placeholder="Your name..." required>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                           placeholder="Your email..." required>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-4">
+                                <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject"
+                                           placeholder="Subject..." required>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message"
+                                              placeholder="Your message..." required></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-3">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Envoyer</button>
+                                </fieldset>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Contactez-nous, nous répondrons dans les plus brefs délais.</p>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2018 Studio 44 - Studio photos et illustrations -</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 {% endblock %}
 
 
